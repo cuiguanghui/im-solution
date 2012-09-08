@@ -61,8 +61,10 @@
 			/>
 			<Tool
 				Name="VCLinkerTool"
-				AdditionalDependencies="gdiplus.lib"
+				AdditionalDependencies="gdiplus.lib im_richedit.lib"
+				OutputFile="../bin/$(ProjectName).exe"
 				LinkIncremental="2"
+				AdditionalLibraryDirectories="../im_richedit"
 				GenerateDebugInformation="true"
 				SubSystem="2"
 				TargetMachine="1"
@@ -135,8 +137,10 @@
 			/>
 			<Tool
 				Name="VCLinkerTool"
-				AdditionalDependencies="gdiplus.lib"
+				AdditionalDependencies="gdiplus.lib im_richedit.lib"
+				OutputFile="../bin/$(ProjectName).exe"
 				LinkIncremental="1"
+				AdditionalLibraryDirectories="../im_richedit"
 				GenerateDebugInformation="true"
 				SubSystem="2"
 				OptimizeReferences="2"
